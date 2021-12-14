@@ -33,6 +33,7 @@ function interactive(todoInput) {
     });
   });
 }
+
 function deleteItem() {
   const trashBtn = document.querySelectorAll(".fastrash");
   trashBtn.forEach((item) => {
@@ -54,6 +55,7 @@ function deleteItem() {
     });
   });
 }
+
 function clearAll() {
   const localData = JSON.parse(localStorage.getItem("localData"));
   myList.splice(0, myList.length, ...localData);
@@ -66,6 +68,7 @@ function clearAll() {
         list.childNodes[i].remove();
       }
     }
+
     for (let i = 0; i < myList.length; i += 1) {
       myList[i].index = i + 1;
     }
