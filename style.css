@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(223, 223, 223);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 31.25rem;
+  margin-top: 10%;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  width: 31.25rem;
+  height: 3.5rem;
+  border-bottom: solid;
+  border-color: rgb(156, 156, 156);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  background-color: #fff;
+  gap: 50%;
+  color: rgb(36, 36, 36);
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+#formation {
+  width: 31.25rem;
+  border: none;
+  border-color: rgb(250, 249, 249);
+}
+
+.btn-container {
+  width: 31.25rem;
+}
+
+#btn {
+  margin: 0;
+  padding: 0;
+  height: 3.5rem;
+  background-color: rgb(204, 203, 203);
+  color: rgb(92, 91, 91);
+  border: none;
+  width: 31.25rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+ul li {
+  height: 3.5rem;
+  width: 31.25rem;
+  border-style: solid;
+  border-bottom: 0.125rem;
+  border-color: rgb(156, 156, 156);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-right: none;
+}
+
+.mystyle {
+  border-bottom: 0.125rem rgb(95, 95, 95);
+  border-left: white;
+}
+
+.user {
+  display: flex;
+  gap: 0%;
+  width: 31.25rem;
+  height: 3.5rem;
+  border-bottom: solid;
+  border-bottom: 1px;
+  border-left: none;
+  border-right: none;
+  background-color: #fff;
+}
+
+#userInput {
+  width: 31.25rem;
+  display: flex;
+  height: 3.5rem;
+  border: none;
+}
+
+.check {
+  height: 30px;
+  width: 30px;
+  justify-self: center;
+}
+
+.fa-ellipsis-v {
+  float: right;
+}
+
+.fa-level-down-alt {
+  margin-right: 3.25rem;
+}
+
+.fastrash {
+  width: 40px;
+  height: 40px;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.fasfas {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  align-items: center;
+  border: white;
+  margin: 10px;
+  border-radius: 5%;
+}
